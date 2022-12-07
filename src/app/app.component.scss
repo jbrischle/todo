@@ -1,3 +1,22 @@
 main {
-    padding: 1rem;
+  padding: 1rem;
+
+  .label-card {
+    padding: 0 1rem;
+    border: 1px solid black;
+  }
+
+  .label-card:first-child {
+    margin-top: 1rem;
+  }
+
+  .label-card:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  .todo-item {
+    cursor: move;
+  }
 }
+
+
